@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahbzco Incorporated | Professional Live Streaming Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased">
+
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-effect py-4 px-6 md:px-12 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <div class="bg-blue-600 p-2 rounded-lg">
+                <i class="fas fa-broadcast-tower text-white text-xl"></i>
+            </div>
+            <span class="text-xl font-extrabold tracking-tighter text-white">SHAHBZCO <span class="text-blue-500 underline decoration-2 underline-offset-4">INC</span></span>
+        </div>
+        <div class="hidden md:flex gap-8 font-medium">
+            <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
+            <a href="#services" class="hover:text-blue-400 transition-colors">Services</a>
+            <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+        </div>
+        <a href="tel:6478544587" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-full font-bold transition-all shadow-lg shadow-blue-900/20 active:scale-95">
+            Call Now
+        </a>
+    </nav>
+
+    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden hero-gradient">
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 md:px-12 grid md:grid-layout grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-semibold">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                    </span>
+                    LIVE STREAMING SERVICES
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight">
+                    Your Event, <span class="text-gradient">Broadcasted</span> to the World.
+                </h1>
+                <p class="text-lg text-slate-400 max-w-xl leading-relaxed">
+                    Shahbzco Incorporated provides premium live streaming solutions for life's most important moments. From intimate weddings to global seminars, we ensure a seamless digital experience.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="px-8 py-4 bg-white text-slate-950 font-bold rounded-2xl hover:bg-blue-50 transition-all flex items-center gap-2">
+                        Book Your Event <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:shahbazcoinc@gmail.com" class="px-8 py-4 glass-effect border-slate-700 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all">
+                        Inquire via Email
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                <div class="relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 aspect-video shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=1000" 
+                         alt="Live Event Streaming" 
+                         class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                         onerror="this.src='https://placehold.co/1000x600/1e293b/white?text=Professional+Live+Streaming'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent flex items-end p-8">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center animate-pulse">
+                                <i class="fas fa-play text-white ml-1"></i>
+                            </div>
+                            <div>
+                                <p class="text-white font-bold">4K Multi-Cam Experience</p>
+                                <p class="text-slate-400 text-sm">Ultra-low latency streaming</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-950 px-6 md:px-12">
+        <div class="container mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-4xl font-bold text-white tracking-tight">Our Specialized Services</h2>
+                <div class="h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
+                <p class="text-slate-400">Professional technology meets artistic production. We tailor our streaming packages to meet the unique needs of your event.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="glass-effect p-8 rounded-3xl border border-slate-800 hover:border-blue-500/50 transition-all group">
+                    <div class="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-ring text-3xl text-blue-500 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Weddings</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Don't let distance keep loved ones away. We provide high-definition, multi-camera streaming so every family member can witness your "I Do."</p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> Professional Audio Capture</li>
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> Private Streaming Links</li>
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> Digital Recording Included</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-effect p-8 rounded-3xl border border-slate-800 hover:border-blue-500/50 transition-all group">
+                    <div class="w-16 h-16 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-600 transition-colors">
+                        <i class="fas fa-chalkboard-teacher text-3xl text-purple-500 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Seminars</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Expand your reach globally. We integrate presentation slides directly into the stream with crystal clear audio for speakers.</p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><i class="fas fa-check text-purple-500 mr-2"></i> Slide Integration</li>
+                        <li><i class="fas fa-check text-purple-500 mr-2"></i> Audience Q&A Support</li>
+                        <li><i class="fas fa-check text-purple-500 mr-2"></i> Professional Lighting</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-effect p-8 rounded-3xl border border-slate-800 hover:border-blue-500/50 transition-all group">
+                    <div class="w-16 h-16 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+                        <i class="fas fa-globe text-3xl text-emerald-500 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Online Events</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Workshops, product launches, or digital galas. We manage the technical complexity so you can focus on your content.</p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><i class="fas fa-check text-emerald-500 mr-2"></i> Custom Branding</li>
+                        <li><i class="fas fa-check text-emerald-500 mr-2"></i> Multi-Platform Restream</li>
+                        <li><i class="fas fa-check text-emerald-500 mr-2"></i> 24/7 Technical Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-900 px-6 md:px-12 relative overflow-hidden">
+        <div class="container mx-auto relative z-10">
+            <div class="glass-effect rounded-[3rem] p-12 md:p-20 flex flex-col md:flex-row gap-16 items-center">
+                <div class="flex-1 space-y-6">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white">Let's Stream Your <span class="text-blue-500">Next Big Event</span></h2>
+                    <p class="text-slate-400 text-lg">Contact Shahbzco Incorporated today for a free consultation and quote. We are ready to take your event to the next level.</p>
+                    
+                    <div class="space-y-4 pt-6">
+                        <div class="flex items-center gap-6 group cursor-pointer" onclick="window.location.href='tel:6478544587'">
+                            <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center border border-white/10 group-hover:bg-blue-600 group-hover:scale-110 transition-all">
+                                <i class="fas fa-phone text-blue-500 group-hover:text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-slate-500 text-sm font-semibold uppercase tracking-wider">Phone Number</p>
+                                <p class="text-white text-2xl font-bold tracking-tight">647-854-4587</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 group cursor-pointer" onclick="window.location.href='mailto:shahbazcoinc@gmail.com'">
+                            <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center border border-white/10 group-hover:bg-blue-600 group-hover:scale-110 transition-all">
+                                <i class="fas fa-envelope text-blue-500 group-hover:text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-slate-500 text-sm font-semibold uppercase tracking-wider">Email Support</p>
+                                <p class="text-white text-2xl font-bold tracking-tight">shahbazcoinc@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 bg-white/5 border border-white/10 p-8 rounded-3xl">
+                    <h4 class="text-xl font-bold text-white mb-6">Booking Inquiry</h4>
+                    <form class="space-y-4" onsubmit="event.preventDefault(); document.getElementById('success-msg').classList.remove('hidden')">
+                        <input type="text" placeholder="Full Name" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors">
+                        <input type="email" placeholder="Email Address" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors">
+                        <select class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors appearance-none">
+                            <option>Wedding Streaming</option>
+                            <option>Corporate Seminar</option>
+                            <option>Online Workshop</option>
+                            <option>Other</option>
+                        </select>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 py-4 rounded-xl font-bold text-white transition-all shadow-xl shadow-blue-600/20 active:scale-95">
+                            Check Availability
+                        </button>
+                        <p id="success-msg" class="hidden text-green-400 text-center text-sm font-medium pt-2">Thank you! We'll contact you soon.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-900 text-center">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600/20 p-1.5 rounded-md">
+                        <i class="fas fa-broadcast-tower text-blue-500"></i>
+                    </div>
+                    <span class="text-lg font-bold text-white">SHAHBZCO INC.</span>
+                </div>
+                <p class="text-slate-600 text-sm">
+                    &copy; 2024 Shahbzco Incorporated. All Rights Reserved. <br class="md:hidden">
+                    Professional Live Streaming for Weddings & Corporate Events.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple scroll spy effect for nav background
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-3', 'bg-slate-950/80', 'border-b', 'border-white/10');
+                nav.classList.remove('py-4');
+            } else {
+                nav.classList.remove('py-3', 'bg-slate-950/80', 'border-b', 'border-white/10');
+                nav.classList.add('py-4');
+            }
+        });
+    </script>
+</body>
+</html>
